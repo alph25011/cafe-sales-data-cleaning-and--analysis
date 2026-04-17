@@ -7,6 +7,7 @@ Includes handling missing values, data transformation, and deriving meaningful b
 ------------------------- Overview --------------------------
 
 This project focuses on cleaning a messy café sales dataset and performing exploratory data analysis (EDA) to extract actionable insights about sales trends, product performance, and customer behavior.
+Further extracting logical insights using Visualisation of the cleandes dataset 
 
 ---
 
