@@ -1,47 +1,87 @@
-# cafe-sales-data-cleaning-and--analysis
+# Café Sales — Data Cleaning & Exploratory Analysis
 
-Data cleaning and exploratory analysis of a café sales dataset using Python (Pandas & Matplotlib).
-Includes handling missing values, data transformation, and deriving meaningful business insights.
-
-
-------------------------- Overview --------------------------
-
-This project focuses on cleaning a messy café sales dataset and performing exploratory data analysis (EDA) to extract actionable insights about sales trends, product performance, and customer behavior.
-Further extracting logical insights using Visualisation of the cleandes dataset 
+> Data cleaning and exploratory analysis of a café sales dataset using Python (Pandas & Matplotlib), including handling missing values, data transformation, and deriving meaningful business insights.
 
 ---
 
-## ---------------------- Cleaning Steps -----------------------
+## Overview
 
-* Removed missing values (NaN)
-* Standardized column names
-* Mapped item categories
-* Cleaned and formatted numerical columns (price, quantity)
+This project focuses on cleaning a messy café sales dataset and performing exploratory data analysis (EDA) to extract actionable insights about sales trends, product performance, and customer behavior. The cleaned dataset is then used to generate clear, business-relevant visualizations.
 
+---
 
+## Project Structure
 
----------------------- Analysis & Visualizations -----------------------
+```
+cafe-sales-data-cleaning-and-analysis/
+├── data/               # Raw and cleaned dataset files
+├── images/             # Exported chart visualizations
+├── notebook/           # Jupyter Notebook with full analysis
+└── README.md
+```
 
-* 📉 Monthly revenue trend (Line Chart)
-* 🥧 Revenue contribution by item (Pie Chart)
-* 📊 Quantity vs Revenue comparison (Bar Charts)
-* 📉 Distribution of order values (Histogram)
+---
 
+## Data Cleaning Steps
 
------------------------ Tools Used -------------------------
+The raw dataset contained several quality issues that were addressed systematically:
 
-* **Python**
-* **Pandas**
-* **Matplotlib**
-* **Jupyter Notebook**
+- Removed missing values (NaN) across key columns
+- Standardized column names for consistency
+- Mapped and normalized item categories
+- Cleaned and formatted numerical columns (price, quantity)
 
+---
 
- ------------------------- Outcome ---------------------------
+## Analysis & Visualizations
 
-The dataset has been successfully cleaned and analyzed.
-The project provides clear insights into sales patterns and customer purchasing behavior, making it useful for business decision-making.
+The following analyses were performed on the cleaned dataset:
 
+| Visualization | Chart Type | Purpose |
+|---|---|---|
+| Monthly Revenue Trend | Line Chart | Identify sales patterns over time |
+| Revenue by Item | Pie Chart | Understand product contribution to total revenue |
+| Quantity vs Revenue | Bar Charts | Compare volume sold against revenue generated |
+| Order Value Distribution | Histogram | Analyze spread and frequency of order amounts |
 
+---
 
+## Tools & Technologies
 
+| Tool | Purpose |
+|---|---|
+| Python | Core programming language |
+| Pandas | Data manipulation and cleaning |
+| Matplotlib | Data visualization |
+| Jupyter Notebook | Interactive development environment |
 
+---
+
+## Outcome
+
+The dataset was successfully cleaned and analyzed, producing clear insights into sales patterns and customer purchasing behavior. The findings from this project can support data-driven decision-making for café operations, menu planning, and revenue optimization.
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/alph25011/cafe-sales-data-cleaning-and--analysis.git
+   ```
+2. Install dependencies
+   ```bash
+   pip install pandas matplotlib jupyter
+   ```
+3. Open the notebook
+   ```bash
+   jupyter notebook notebook/
+   ```
+
+---
+
+## Author
+
+**alph25011** — [GitHub Profile](https://github.com/alph25011)
