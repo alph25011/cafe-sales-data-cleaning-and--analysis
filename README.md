@@ -17,7 +17,9 @@ cafe-sales-data-cleaning-and-analysis/
 ├── data/               # Raw and cleaned dataset files
 ├── images/             # Exported chart visualizations
 ├── notebook/           # Jupyter Notebook with full analysis
+├── dashboard/          # Power BI dashboard files
 └── README.md
+
 ```
 
 ---
@@ -37,12 +39,22 @@ The raw dataset contained several quality issues that were addressed systematica
 
 The following analyses were performed on the cleaned dataset:
 
-| Visualization | Chart Type | Purpose |
+| Matplotlib Visualization | Chart Type | Purpose |
 |---|---|---|
 | Monthly Revenue Trend | Line Chart | Identify sales patterns over time |
 | Revenue by Item | Pie Chart | Understand product contribution to total revenue |
 | Quantity vs Revenue | Bar Charts | Compare volume sold against revenue generated |
 | Order Value Distribution | Histogram | Analyze spread and frequency of order amounts |
+
+| Power BI Visualization                      | Chart Type  | Purpose                                                  |
+| ------------------------------------------- | ----------- | -------------------------------------------------------- |
+| Key Performance Indicator (KPI)             | Cards       | Provide a quick overview of key business metrics         |
+| Revenue Trend (Monthly)                     | Line Chart  | Identify sales patterns and seasonal trends over time    |
+| Units Sold by Item                          | Bar Chart   | Compare product performance based on quantity sold       |
+| Payment Method Distribution                 | Donut Chart | Understand customer payment preferences and distribution |
+| Filters (Month, Item)                       | Slicers     | Enable interactive analysis and dynamic data exploration |
+| Insight Text                                | Text Box    | Highlight key business insights and interpret trends     |
+
 
 ---
 
@@ -54,6 +66,7 @@ The following analyses were performed on the cleaned dataset:
 | Pandas | Data manipulation and cleaning |
 | Matplotlib | Data visualization |
 | Jupyter Notebook | Interactive development environment |
+| Power BI | Dynamic Dashboard for visusalization and analysis |
 
 ---
 
